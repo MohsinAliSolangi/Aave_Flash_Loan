@@ -1,0 +1,40 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hardhat": "npx hardhat run scripts/maindeploy.js --network hardhat"
+  },
+  "author": "MohsinAliSolangi",
+  "license": "ISC",
+  "dependencies": {
+    "@aave/core-v3": "^1.18.0",
+    "@animoca/ethereum-contracts-assets_inventory": "^7.1.0",
+    "@animoca/ethereum-contracts-core_library": "^4.0.3",
+    "@animoca/ethereum-contracts-erc20_base": "^3.0.0",
+    "@animoca/ethereum-contracts-nft_staking": "^4.0.0",
+    "@animoca/ethereum-contracts-sale_base": "^7.0.0",
+    "@animoca/f1dt-core_metadata": "^2.2.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.4",
+    "dotenv": "^15.0.0",
+    "ethers": "^5.7.2",
+    "hardhat-abi-exporter": "^2.4.1",
+    "hardhat-contract-sizer": "^2.5.1",
+    "mocha": "^9.2.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "hardhat": "^2.8.0",
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}
